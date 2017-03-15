@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
+	integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" 
+	crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<script
+	src="https://code.jquery.com/jquery-3.1.1.js"
+	integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+	crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+	<script src="js/Rendering.js"></script>
+</head>
+<body>
+	<form action="">
+		<h1>Заполните форму теста</h1>
+		<input type="text" class="question" placeholder="Введите вопрос" >
+		<input type="text" class="answer1" placeholder="Введите вариант ответа" >
+		<input type="text" class="answer2" placeholder="Введите вариант ответа" >
+		<input type="text" class="answer3" placeholder="Введите вариант ответа" >
+		<h4>Выберите какой(ие) ответы будут верными</h4>
+		<label>
+			<input type="checkbox" class="first_answer"> Answer 1
+		</label>
+		<label>
+			<input type="checkbox" class="second_answer"> Answer 2
+		</label>
+		<label>
+			<input type="checkbox" class="third_answer"> Answer 3
+		</label>
+		<button class="btn custom">Отправить вопрос</button>
+
+		<div class="modale hide">
+			<div class="modale-dialog">
+				<div class="modal-content">
+					<div class="modale-header">
+						<h4 class="modale-title">Ваша вопрос был создан.</h4>
+					</div>
+					<div class="modale-footer">
+						<button type="button" class="btn btn-default position">Another question?</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+
+
+
+
+
+
+</body>
+</html>
